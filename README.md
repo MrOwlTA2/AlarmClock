@@ -3,6 +3,8 @@
 
 Set an alarm with Constellation.
 
+**Package detail**
+------------------
 
 **StateObjects**
 
@@ -21,6 +23,7 @@ Set an alarm with Constellation.
   - ChooseSleepingTime(sleepingHour, sleepingMinute) : Choose the time you want to sleep, for example for a nap.
 
 **Installation**
+---------------------
 
 You can set the desired snooze time :
 
