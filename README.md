@@ -23,13 +23,14 @@ Set an alarm with Constellation.
 **Installation**
 
 You can set the desired snooze time :
-     ```Python
-     <package name="AlarmClock" enable="true" autoStart="true">
-					<settings>
-					<setting key="snooze" value="xx" />
-				</settings>
-				</package>
-          ```
+
+```html
+	<package name="AlarmClock" enable="true" autoStart="true">
+		<settings>
+			<setting key="snooze" value="xx" />
+		</settings>
+	</package>
+```
 If you can't see this in the Configuration Editor, the default value is used.
 
 
