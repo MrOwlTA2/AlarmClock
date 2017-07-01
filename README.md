@@ -1,8 +1,5 @@
-# AlarmClock-Constellation
-
 **Alarm clock Package for Constellation**
 ----------
-----
 
 Set an alarm with Constellation.
 
