@@ -15,7 +15,7 @@ Set an alarm with Constellation.
 
  - SetAlarm(clockName, wakingHour, wakingMinute, wakingDays) : Set an alarm for given name, hour, minutes and days. *(Caution : Constellation does not handle integer lists. You need to use a dashboard to set this for example with checkbox. To counter this, the default value is `null` and set a punctual alarm)*
 
- - StopRinging(alarmName) : Re-set the booelan `IsRinging` to false when you want to stop the alarm in progress.
+ - StopRinging(alarmName) : Re-set the booelan `IsRinging` to `false` when you want to stop the alarm in progress.
  - SnoozeAlarm(alarmName) : Snooze the alarm in progress. The snooze time can be choose in settings on Constellation.
  - DeleteAlarm(alarmName) : Deletes the desired alarm.
  
