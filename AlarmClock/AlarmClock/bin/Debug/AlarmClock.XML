@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlarmClock</name>
+    </assembly>
+    <members>
+        <member name="T:AlarmClock.AlarmClock">
+            <summary>
+            StateObject Alarm
+            </summary>
+        </member>
+        <member name="P:AlarmClock.AlarmClock.ClockName">
+            <summary>
+            Name of alarm
+            </summary>
+        </member>
+        <member name="P:AlarmClock.AlarmClock.WakingHour">
+            <summary>
+            Hour
+            </summary>
+        </member>
+        <member name="P:AlarmClock.AlarmClock.WakingMinute">
+            <summary>
+            Minute
+            </summary>
+        </member>
+        <member name="P:AlarmClock.AlarmClock.WakingDays">
+            <summary>
+            Days
+            </summary>
+        </member>
+        <member name="P:AlarmClock.AlarmClock.IsRinging">
+            <summary>
+            iSRinging    
+            </summary>
+        </member>
+        <member name="P:AlarmClock.AlarmClock.Snooze">
+            <summary>
+            Snooze   
+            </summary>
+        </member>
+        <member name="P:AlarmClock.AlarmClock.SnoozedTime">
+            <summary>
+            Snooze   
+            </summary>
+        </member>
+        <member name="M:AlarmClock.Program.SetAlarm(System.String,System.Int32,System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Alarm
+            </summary>
+            <param name="clockName">Clock name</param>
+            <param name="wakingHour">Waking hour</param>
+            <param name="wakingMinute">Waking minute</param>
+            <param name="wakingDays">Waking days</param>
+        </member>
+        <member name="M:AlarmClock.Program.StopRinging(System.String)">
+            <summary>
+            Stop the alarm 
+            </summary>
+            <param name="name">The name of alarm to stop</param>
+        </member>
+        <member name="M:AlarmClock.Program.SnoozeAlarm(System.String)">
+            <summary>
+            Snooze the alarm.
+            </summary>
+        </member>
+        <member name="M:AlarmClock.Program.DeleteAlarm(System.String)">
+            <summary>
+            Delete specified alarm
+            </summary>
+            <param name="alarmName">Name of the alarm</param>
+        </member>
+        <member name="M:AlarmClock.Program.ChooseSleepingTime(System.Int32,System.Int32)">
+            <summary>
+            Choose the time you want to sleep
+            </summary>
+            <param name="sleepingHour">Number of hours of sleep desired</param>
+            <param name="sleepingMinute">and minutes ?</param>
+        </member>
+        <member name="M:AlarmClock.Program.PublishAlarm(AlarmClock.AlarmClock)">
+            <summary>
+            Publish the alarm
+            </summary>
+            <param name="alarm">The alarm to publish</param>
+        </member>
+        <member name="T:AlarmClock.SleepingTime">
+            <summary>
+            StateObject SleepingTime
+            </summary>
+        </member>
+        <member name="P:AlarmClock.SleepingTime.SleepingHour">
+            <summary>
+            Number of hour
+            </summary>
+        </member>
+        <member name="P:AlarmClock.SleepingTime.SleepingMinute">
+            <summary>
+            Minute
+            </summary>
+        </member>
+        <member name="P:AlarmClock.SleepingTime.IsRinging">
+            <summary>
+            iSRinging    
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\PackageInfo.xml
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\AlarmClock.exe.config
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\AlarmClock.XML
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\AlarmClock.exe
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\AlarmClock.pdb
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\Constellation.Common.dll
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\Constellation.Common.xml
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\obj\Debug\AlarmClock.exe
+C:\Users\hugos\Documents\Visual Studio 2017\Projects\AlarmClock\AlarmClock\obj\Debug\AlarmClock.pdb
