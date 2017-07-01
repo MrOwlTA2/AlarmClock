@@ -108,14 +108,14 @@ namespace AlarmClock
         /// <summary>
         /// Stop the alarm 
         /// </summary>
-        /// <param name="name">The name of alarm to stop</param>
+        /// <param name="alarmName">The name of alarm to stop</param>
         [MessageCallback]
-        public void StopRinging(string name)
+        public void StopRinging(string alarmName)
         {
-            if (alarms.ContainsKey(name))
+            if (alarms.ContainsKey(alarmName))
             {
-                alarms[name].IsRinging = false;
-                PublishAlarm(alarms[name]);
+                alarms[alarmName].IsRinging = false;
+                PublishAlarm(alarms[alarmName]);
             }
             else
             {
@@ -127,7 +127,7 @@ namespace AlarmClock
         /// Snooze the alarm.
         /// </summary>
         [MessageCallback]
-        public void SnoozeAlarm(string nameOfAlarmForSnooze)
+        public void SnoozeAlarm(string alarmName)
         {
 
             DateTime clock = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DEFAULT_NUMBER_OF_SECONDS);
@@ -137,7 +137,7 @@ namespace AlarmClock
 
             var alarmSnoozed = new AlarmClock()
             {
-                ClockName = nameOfAlarmForSnooze,
+                ClockName = alarmName,
                 WakingHour = snoozedClock.Hour,
                 WakingMinute = snoozedClock.Minute,
                 WakingDays = null,
@@ -148,10 +148,10 @@ namespace AlarmClock
             };
 
 
-            PackageHost.PushStateObject<AlarmClock>(nameOfAlarmForSnooze + "Snoozed", alarmSnoozed);
+            PackageHost.PushStateObject<AlarmClock>(alarmName + "Snoozed", alarmSnoozed);
             lock (alarms)
             {
-                alarms[nameOfAlarmForSnooze] = alarmSnoozed;
+                alarms[alarmName] = alarmSnoozed;
             }
         }
 
@@ -172,6 +172,7 @@ namespace AlarmClock
             }
         }
 
+        //Bonus
         /// <summary>
         /// Choose the time you want to sleep
         /// </summary>
