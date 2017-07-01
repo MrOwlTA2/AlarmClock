@@ -23,7 +23,7 @@ Set an alarm with Constellation.
 **Installation**
 
 You can set the desired snooze time :
-     ```Markdown
+     ```Python
      <package name="AlarmClock" enable="true" autoStart="true">
 					<settings>
 					<setting key="snooze" value="xx" />
