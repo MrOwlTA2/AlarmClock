@@ -9,7 +9,7 @@ Set an alarm with Constellation.
 **StateObjects**
 
  - Each alarms set are push as different StateObject with the name : *"Alarm" + name of alarm set*.
- - In these StateObjects, the boolean `IsRinging` becomes `true` when the alarm sounds.
+	 - In these StateObjects, the boolean `IsRinging` becomes `true` when the alarm sounds.
  
 **MessageCallbacks**
 
