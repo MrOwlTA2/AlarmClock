@@ -25,7 +25,7 @@ Set an alarm with Constellation.
 **Installation**
 ---------------------
 
-You can set the desired snooze time :
+You can set the desired snooze time by installing the package or in the Configuration Editor :
 
 ```html
 	<package name="AlarmClock" enable="true" autoStart="true">
@@ -34,6 +34,6 @@ You can set the desired snooze time :
 		</settings>
 	</package>
 ```
-If you can't see this in the Configuration Editor, the default value is used.
+If you don't see this in the Configuration Editor, the default value is used.
 
 
