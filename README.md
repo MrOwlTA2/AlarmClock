@@ -3,7 +3,7 @@
 
 Set an alarm with Constellation.
 
-**Package detail**
+**Package details**
 ------------------
 
 **StateObjects**
